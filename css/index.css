@@ -75,6 +75,8 @@
             border: 1px solid red;
             margin: auto;
             margin-top: 40px;
+            gap: 10px;
+            display: flex;
         }
         #container>div:nth-child(1)
         {
@@ -84,5 +86,15 @@
         }
         #container>div:nth-child(2)
         {
-
+            width: 25%;
+            height: 65%;
+            border: 1px solid red;
+        }
+        #container>div>div>img
+        {
+            width: 100%;
+            border-radius:10px 10px 0px 0px;
+        }
+        ul{
+            font-weight: bold;
         }
