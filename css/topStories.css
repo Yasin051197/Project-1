@@ -1,0 +1,217 @@
+#title
+        {
+            background-color: black;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: flex;
+            margin-bottom:20px ;
+            justify-content: space-around ;
+        }
+        #title>div{
+            display: flex;
+            gap: 20px;
+        }
+        #title>div>p{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #topimage
+        {
+            width: 20%;
+            height: 100px;
+            margin: auto;
+        }
+        #topimage>img
+        {
+            width: 100%;
+        }
+        #topimage+p
+        {
+            margin-top: -15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        #navbar
+        {
+            width: 80%;
+            height: auto;
+            margin:auto
+        }
+        #navbar>div
+        {
+            border: 1px solid black;
+            border-left: 0px;
+            border-right: 0px;
+            margin:auto;
+        }
+        #nav
+        {
+            height: auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            gap: 40px;
+            margin: auto;
+            font-size: 20px;
+        }
+        #nav>img
+        {
+            margin: auto;
+            width: 2%;
+            height: 2%;
+        }
+        #options
+        {
+            margin: 10px;
+        }
+        #nav>p:hover
+        {
+            background-color: rgb(231, 218, 218);
+        }
+#container
+        {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: 40px;
+            gap: 20px;
+            display: flex;
+            border-bottom: 1px solid rgb(231, 218, 218);
+        }
+        #container>div>div>img
+        {
+            width: 100%;
+            border-radius:10px 10px 0px 0px;
+        }
+        #container>div:nth-child(1)
+        {
+            width: 45%;
+            height: auto;
+        }
+        #container>div:nth-child(1)>div
+        {
+            margin-top: 10px;
+            border: 0.1px solid rgb(231, 218, 218);
+            border-radius: 10px;
+        }
+        #container>div:nth-child(2)
+        {
+            margin-top: 45px;
+            width: 25%;
+            height: auto;
+        
+        }
+        #container>div:nth-child(2)>div
+        {
+            width: 100%;
+            gap:20px;
+            display: flex;
+            border: 0.1px solid rgb(231, 218, 218);
+        }
+        #container>div:nth-child(2)>div>div
+        {
+            width: 100%;
+        }
+        #container>div:nth-child(2)>div>div>img
+        {
+            margin-top: 15px;
+            width: 100%;
+            margin-left: 5px;
+        }
+        ul{
+            font-weight: bold;
+        }
+        #container>div:nth-child(3)
+        {
+            font-size: 19px;
+            width:35%;
+        }
+        #firstdiv,#secdiv
+        {
+            width: 100%;
+            margin-bottom:10px;
+        }
+        #firstdiv>div
+        {
+            width: 100%;
+            gap:20px;
+            display: flex;
+            border: 0.1px solid rgb(231, 218, 218);
+            background-color:rgb(244, 241, 241) ;
+        }
+        #firstdiv>div>div
+        {
+            font-weight:  bold;
+            width: 80%;
+            gap:10px;
+            margin-left: 15px;
+        }
+        #firstdiv>div>div>img
+        {
+            margin-top: 20px;
+            width: 70%;
+        }
+        #secdiv>div
+        {
+            width: 100%;
+            gap:60px;
+            display: flex;
+            border: 0.1px solid rgb(231, 218, 218);
+        }
+        #secdiv>div>div
+        {
+            font-size: 17px;
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+        #secdiv>div>div>p,h5
+        {
+            margin-top: -14px;
+            font-weight: 0px;
+            color: rgb(83, 78, 78);
+        }
+        #secdiv>div>div>h3
+        {
+            margin-top: -10px; 
+        }
+        #secdiv>div>div>img
+        {
+            border-radius:50px;
+        }
+        #endline
+        {
+            width: 100%;
+            height: 250px;
+            border: 3px solid rgb(231, 218, 218);
+            background-color:rgb(244, 241, 241) ;
+            text-align: center;
+        }
+        #Search
+        {
+            margin-top: 20px;
+            padding: 5px 80px;
+            margin-right: 20px;
+        }
+        button
+        {
+            padding: 4px 30px;
+            background-color: rgb(250, 245, 245);
+            color: white;
+            border: 1px solid gray;
+        }
+        #endline>p{
+            font-size: 19px;
+            text-align: start;
+            margin-left: 250px;
+            color: rgb(82, 77, 77);
+        }
+       h4
+        {
+            color: gray;
+        }
+        button>img
+        {
+            width:18px;
+            height: 15px;
+        }
