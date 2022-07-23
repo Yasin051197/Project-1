@@ -4,11 +4,11 @@
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             display: flex;
             margin-bottom:20px ;
+            justify-content: space-around ;
         }
         #title>div{
             display: flex;
-            gap: 10px;
-            margin-left: 20%;
+            gap: 20px;
         }
         #title>div>p{
             color: white;
