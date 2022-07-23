@@ -30,15 +30,3 @@ function Worfun()
 {
     window.location.href="http://127.0.0.1:5500/benevolent-boot-3435/World.html"
 }
-document.querySelector("#ek").addEventListener("click",imgfun)
-
-function imgfun()
-{
-    window.location.href="http://127.0.0.1:5500/benevolent-boot-3435/topStories.html"
-}
-document.querySelector("#don").addEventListener("click",imgfun)
-
-function imgfun()
-{
-    window.location.href="http://127.0.0.1:5500/benevolent-boot-3435/don.html"
-}
