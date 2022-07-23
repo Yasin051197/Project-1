@@ -1,4 +1,4 @@
-#title
+       #title
         {
             background-color: black;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -77,6 +77,8 @@
             gap: 20px;
             display: flex;
             border-bottom: 1px solid rgb(231, 218, 218);
+            margin-bottom: 40px;
+
         }
         #container>div>div>img
         {
@@ -85,43 +87,34 @@
         }
         #container>div:nth-child(1)
         {
-            width: 45%;
+            width: 65%;
             height: auto;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
         #container>div:nth-child(1)>div
         {
             margin-top: 10px;
-            border: 0.1px solid rgb(231, 218, 218);
             border-radius: 10px;
         }
-        #container>div:nth-child(2)
+        #container>div:nth-child(1)>div>p
         {
-            margin-top: 45px;
-            width: 25%;
-            height: auto;
-        
+            font-size: 20px;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
         }
-        #container>div:nth-child(2)>div
+        p+h4
         {
-            width: 100%;
-            gap:20px;
-            display: flex;
-            border: 0.1px solid rgb(231, 218, 218);
+            margin-top: 20px; 
         }
-        #container>div:nth-child(2)>div>div
+        h4
         {
-            width: 100%;
-        }
-        #container>div:nth-child(2)>div>div>img
-        {
-            margin-top: 15px;
-            width: 100%;
-            margin-left: 5px;
-        }
-        ul{
             font-weight: bold;
+            width: 90%;
+            margin: auto; 
         }
-        #container>div:nth-child(3)
+        #container>div:nth-child(2)
         {
             font-size: 19px;
             width:35%;
@@ -150,34 +143,6 @@
         {
             margin-top: 20px;
             width: 70%;
-        }
-        #secdiv>div
-        {
-            width: 100%;
-            gap:60px;
-            display: flex;
-            border: 0.1px solid rgb(231, 218, 218);
-        }
-        #secdiv>div>div
-        {
-            font-size: 17px;
-            width: 80%;
-            margin-top: 20px;
-            margin-left: 15px;
-        }
-        #secdiv>div>div>p,h5
-        {
-            margin-top: -14px;
-            font-weight: 0px;
-            color: rgb(83, 78, 78);
-        }
-        #secdiv>div>div>h3
-        {
-            margin-top: -10px; 
-        }
-        #secdiv>div>div>img
-        {
-            border-radius:50px;
         }
         #endline
         {
